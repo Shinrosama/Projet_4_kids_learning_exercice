@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+/* -------Les polices------- */
+
+@font-face {
+    font-family: "numito regular";
+    src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
+
+}
+
+@font-face { 
+    font-family: "numito bold";
+    src: url(../fonts/Nunito/static/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: "muli";
+    src: url(../fonts/muli/Muli.ttf);
+}
+
+@font-face {
+    font-family: "muli bold";
+    src: url(../fonts/muli/Muli-Bold.ttf);
+}
+
+
+/* ------- Je commence par les généralités------- */
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "numito regular";
+    width: 1440px;
+}
+
+h1 h2 {
+    font-family: "muli";
+}
+
+
+
+
+
+/* -------je passe a la barre nav------- */
+
+.nav1 {
+
+    height: 200px;
+    width: 1440px;
+
+    background-color: rgb(65, 65, 65);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+
+.logo1 {
+    height: 90px;
+    width: 200px;
+    
+}
+
+.ul_nav1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 30px;
+    
+}
+
+/* -------La bannière------- */
+.banner1_img {
+
+    position: relative;
+
+    height: 400px;
+    width: 1440px;
+    object-fit: cover;
+    object-position: center;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+
+    font-family: "mulin";
+    font-size: 60px;
+    color:  rgb(65, 65, 65);
+
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+
+/* -------le texte seul------- */
+.text_centre {
+    text-align: center;
+    color: rgb(65, 65, 65);
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+.nos_cours {
+    margin-bottom: 10px;
+}
+
+/* -------je commence les blocs immage et texte------ */
+.bloc1 {
+
+    height: 600px;
+    width: 1440px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+
+    
+}
+
+.math {
+    
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+}
+
+
+
+.math_img_cadre {
+
+    height: 50%;
+    width: 100%;
+}
+.math_img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+
+}
+
+.sc {
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+}
+
+.sc_img_cadre {
+    
+    height: 50%;
+    width: 100%;
+}
+
+.sc_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lit {
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+}
+
+.lit_img_cadre {
+    
+    height: 50%;
+    width: 100%;
+}
+
+.lit_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* -------second blocde texte------- */
+
+.texte_centre2 {
+
+    text-align: center;
+    color: rgb(65, 65, 65);
+    background-color: antiquewhite;
+    padding: 30px;
+
+}
+
+/* -------second bloc image et texte -------*/
+
+.bloc2 {
+
+    height: 400px;
+    width: 1440px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+  
+}
+
+.parent_bloc1 {
+    
+    width: 30%;
+    background-color: white;
+}
+
+.parent1_img_cadre {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: solid white;
+    margin: auto;
+    
+}
+
+.parent1_img{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.parent_bloc2 {
+    width: 30%;
+    background-color: white;
+}
+
+.parent2_img_cadre {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: solid white 2px;
+    margin: auto;
+}
+
+.parent2_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.parent_bloc3 {
+    width: 30%;
+    background-color: white;
+}
+
+.parent3_img_cadre {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border-radius: 100px;
+    border: solid white;
+    margin: auto;
+}
+
+.parent3_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    
+}
+
+/* -------suivent les contacts------- */
+
+.contact1 {
+
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/* -------le formulaire------- */
+
+.formulaire {
+
+    height: 600px;
+    width: 30%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
